@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 3"
 
-  spec.add_dependency 'omniauth', '> 2.0.0', '< 3.0.0'
+  spec.add_dependency 'omniauth', '>= 2.0.0', '< 3.0.0'
   spec.add_dependency 'omniauth-oauth2', '>= 1.4.0', '< 2.0'
   spec.add_development_dependency 'minitest'
   spec.add_development_dependency 'rack-test'
